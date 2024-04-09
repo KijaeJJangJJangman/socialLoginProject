@@ -16,5 +16,4 @@ function timeLog(log) {
   console.log('[KST: ' + time_current + '] ' + log);
 }
 
-
 export { resSend, consoleBar, timeLog };

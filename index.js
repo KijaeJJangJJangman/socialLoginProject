@@ -10,9 +10,10 @@ app.use(bodyParser.urlencoded({extended: false}));
 app.use(cors());
 const router = express.Router();
 
+
 router.route('/ping').get(ping);
 
 app.use('/socialLoginProject/api/v1',router);
 app.listen(serverPort);
 
-//http://51.20.71.68:3000/socialLoginProject/api/v1/ping
+//http://51.20.71.68:3000/socialLoginProject/api/v1/pin 

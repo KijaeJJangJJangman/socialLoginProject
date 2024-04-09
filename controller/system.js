@@ -8,4 +8,5 @@ const ping = (req, res) => {
     timeLog('Get ping called');
 };
 
+
 export { ping };
