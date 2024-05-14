@@ -1,18 +1,20 @@
 {
   "name": "socialloginproject",
   "version": "1.0.0",
-  "description": "서버 IP : 172.31.28.171",
+  "description": "socialLoginProject",
+  "type": "module",
   "main": "index.js",
-  "type":"module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Root",
   "license": "ISC",
   "dependencies": {
     "express": "4.19.2",
     "body-parser": "1.20.2",
     "cors": "2.8.5",
-    "moment-timezone": "0.5.45"
+    "moment-timezone": "0.5.45",
+    "dotenv": "16.4.5",
+    "mysql2": "3.9.7"
   }
 }
